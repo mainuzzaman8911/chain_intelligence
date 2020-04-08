@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: block;
+    width: 100%;
+    height: 70px;
+}
+
+#nav-bar-container {
+    display: block;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+#logo {
+    display: block;
+    width: 50%;
+    float: left;
+    height: 100%;
+    font-size: 3.5vw;
+}
+
+#nav-bar {
+    display: block;
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+.menus {
+    display: block;
+    width: 24%;
+    margin-right: 1%;
+    float: left;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 1.3vw;
+    background: rgb(240, 240, 240);
+    border-radius: 40px;
+}
+
+.menus:hover {
+    cursor: pointer;
+    background: rgb(120, 120, 120);
+    color: white;
+}
+
+.horizontal-line {
+    max-width: 1000px;
+    height: 1px;
+    background: black;
+    margin: 10px auto;
+}
+
+#main-content {
+    display: block;
+    max-width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+}
+
+table tr td {
+    border: 1px solid rgb(200, 200, 200);
+    width: 33%;
+    font-size: 1.3vw;
+    padding: 10px;
+}
+
+footer {
+    display: block;
+    height: 250px;
+    width: 100%;
+    background: black;
+}
+
+#pre-footer-section {
+    display: block;
+    height: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#footer-section {
+    display: block;
+    max-width: 1000px;
+    height: 190px;
+    margin: 0 auto;
+}
+
+.fs-section {
+    display: block;
+    width: 40%;
+    float: left;
+    color: white;
+}
+
+#id-fs-section {
+    display: block;
+    width: 20%;
+    float: left;
+    color: white;
+}

@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-content {
+    width: 100%;
+    padding: 50px;
+    margin: 0 auto;
+    background: rgba(240, 240, 240, .9);
+}
+
+#description {
+    overflow-y: scroll;
+    height: 300px;
+    resize: none;
+}
